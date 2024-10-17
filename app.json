@@ -4,10 +4,10 @@
     "slug": "Capzfood",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/Splash-01.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/Splash-01.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
