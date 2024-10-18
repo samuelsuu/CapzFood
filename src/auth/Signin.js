@@ -11,7 +11,7 @@ import {
 import { LinearGradient } from "expo-linear-gradient"; // Importing LinearGradient for gradient backgrounds
 import { useNavigation } from "@react-navigation/native"; // For navigation between screens
 import { Ionicons } from "@expo/vector-icons"; // Using Ionicons for icon support
-import { styles } from '../src/styles/Styles'; // Import external stylesheet
+import { styles } from '../styles/Styles'; // Import external stylesheet
 
 function Signin() {
     const navigation = useNavigation(); // Initialize navigation hook to move between screens
@@ -142,19 +142,19 @@ function Signin() {
           <View style={styles.socialButtonsContainer}>
             <TouchableOpacity style={styles.socialButton} onPress={handleFacebookLogin}>
               <Image
-                source={require("../assets/socialicons/facebook.png")}
+                source={require("../../assets/socialicons/facebook.png")}
                 style={styles.socialIcon}
               />
             </TouchableOpacity>
             <TouchableOpacity style={styles.socialButton} onPress={handleTwitterLogin}>
               <Image
-                source={require("../assets/socialicons/x.png")}
+                source={require("../../assets/socialicons/x.png")}
                 style={styles.socialIcon}
               />
             </TouchableOpacity>
             <TouchableOpacity style={styles.socialButton} onPress={handleAppLogin}>
               <Image
-                source={require("../assets/socialicons/ios.png")}
+                source={require("../../assets/socialicons/ios.png")}
                 style={styles.socialIcon}
               />
             </TouchableOpacity>

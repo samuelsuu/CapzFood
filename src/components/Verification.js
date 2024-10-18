@@ -9,7 +9,7 @@ import {
 } from "react-native"; // Import core components from React Native
 import { LinearGradient } from "expo-linear-gradient"; // Import LinearGradient for creating gradient backgrounds
 import { useNavigation } from "@react-navigation/native"; // Import useNavigation for navigation between screens
-import { styles } from "../src/styles/Styles";
+import { styles } from "../styles/Styles";
 
 // Main functional component for the Verification screen
 function Verification() {

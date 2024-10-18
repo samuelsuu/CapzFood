@@ -33,7 +33,7 @@ const SecondScreen = ({ navigation }) => {
       </TouchableOpacity>
       <TouchableOpacity
         style={styles}
-        onPress={() => navigation.navigate("Login")}
+        onPress={() => navigation.navigate("Reg")}
       >
         <Text style={{ textAlign: "center", marginTop: "5%", color: "grey"  }}>Skip</Text>
       </TouchableOpacity>

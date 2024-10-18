@@ -3,7 +3,8 @@ import { View, Text, TextInput, TouchableOpacity, SafeAreaView } from "react-nat
 import { LinearGradient } from "expo-linear-gradient";
 import { useNavigation } from "@react-navigation/native";
 import { Ionicons } from "@expo/vector-icons";
-import { styles } from '../src/styles/Styles'; // Importing general styles
+import { styles } from '../styles/Styles'; // Importing general styles
+
 
 function Registration() {
   const navigation = useNavigation();

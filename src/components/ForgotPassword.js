@@ -8,7 +8,7 @@ import {
 } from "react-native";
 import { LinearGradient } from "expo-linear-gradient"; // For the gradient background
 import { useNavigation } from "@react-navigation/native"; // Navigation between screens
-import { styles } from '../src/styles/Styles'; // Import external styles
+import { styles } from '../styles/Styles'; // Import external styles
 
 function ForgotPassword() {
   const navigation = useNavigation();
