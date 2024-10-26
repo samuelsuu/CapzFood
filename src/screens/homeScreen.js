@@ -1,12 +1,19 @@
-import { View, Text } from 'react-native'
-import React from 'react'
+import React from "react";
+import { View, } from "react-native";
+import RestaurantList from "../components/RestaurantList";
+import CategoryList from "../components/CategoryList";
 
-const homeScreen = () => {
+const HomeScreen = () => {
   return (
     <View>
-      <Text>homeScreen</Text>
+
+      {/* Category Section */}
+      <CategoryList />
+
+    {/* Restaurant Section */}
+    <RestaurantList />
     </View>
   )
 }
 
-export default homeScreen
+export default HomeScreen
