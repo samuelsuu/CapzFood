@@ -17,7 +17,6 @@ const FirstScreen = ({ navigation }) => {
       </Text>
 
       <View style={styles.circle}>
-        <Icon name="circle-thin" color={"#FF7622"} size={20} />
         <Icon name="circle" color={"#FF7622"} size={20} />
         <Icon name="circle-thin" color={"#FF7622"} size={20} />
         <Icon name="circle-thin" color={"#FF7622"} size={20} />

@@ -116,7 +116,7 @@ function Signin() {
           <TouchableOpacity
             style={styles.actionButton}
             activeOpacity={0.8}
-            onPress={handleSignIn} // Trigger the sign-in function
+            onPress={() => navigation.navigate("HomeDrawer")} // Trigger the sign-in function
           >
             <Text style={styles.actionButtonText}>LOG IN</Text>
           </TouchableOpacity>

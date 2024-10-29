@@ -5,6 +5,7 @@ import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import * as Font from "expo-font";
 import Onboarding from "./Onboarding";
 import Regs from "./Regs";
+import HomeDrawer from "./HomeDrawer";
 import { Text } from "react-native";
 
 const Stack = createNativeStackNavigator();
@@ -15,7 +16,6 @@ const appNavigation = () => {
   const loadFonts = async () => {
     await Font.loadAsync({
       MontserratBold: require("../../assets/font/Montserrat/static/Montserrat-Bold.ttf"),
-      MontserratLight: require("../../assets/font/Montserrat/static/Montserrat-Light.ttf"),
     });
   };
 
@@ -39,6 +39,11 @@ const appNavigation = () => {
           <Stack.Screen
             name="Reg"
             component={Regs}
+            options={{ headerShown: false }}
+          />
+  <Stack.Screen
+            name="HomeDrawer"
+            component={HomeDrawer}
             options={{ headerShown: false }}
           />
         </Stack.Navigator>
