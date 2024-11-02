@@ -41,7 +41,7 @@ const appNavigation = () => {
             component={Regs}
             options={{ headerShown: false }}
           />
-  <Stack.Screen
+          <Stack.Screen
             name="HomeDrawer"
             component={HomeDrawer}
             options={{ headerShown: false }}

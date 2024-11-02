@@ -19,6 +19,9 @@ export const CategoryStyles = StyleSheet.create({
       categoryItem: {
         alignItems: "center",
         marginRight: 20,
+        backgroundColor: "white",
+        padding: 20,
+        borderRadius: 20,
       },
       categoryImage: {
         width: 120,
