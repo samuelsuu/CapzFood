@@ -20,6 +20,9 @@ export const Restaurantstyles = StyleSheet.create({
       restaurantItem: {
         flexDirection: "row",
         marginBottom: 20,
+        backgroundColor: "white",
+        padding: 20,
+        borderRadius: 20,
       },
       restaurantImage: {
         width: 150,
