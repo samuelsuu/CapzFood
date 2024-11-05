@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "Capzfood",
+    "slug": "Capzfood",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/Splash-01.png",
+    "userInterfaceStyle": "light",
+    "jsEngine": "hermes",
+    "splash": {
+      "image": "./assets/Splash-01.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.samuelSu55.capzFood"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "409d30ac-8b70-4bf0-9a2d-ea2a37df1750"
+      }
+    }
+  }
+}
