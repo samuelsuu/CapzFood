@@ -5,6 +5,7 @@ import CategoryList from "../components/CategoryList";
 import { ScrollView } from "react-native-gesture-handler";
 import Search from "../components/Search";
 
+
 const HomeScreen = () => {
   return (
     <ScrollView
@@ -14,7 +15,6 @@ const HomeScreen = () => {
 <Search />
       {/* Category Section */}
       <CategoryList />
-
     {/* Restaurant Section */}
     <RestaurantList />
     </ScrollView>
@@ -22,3 +22,4 @@ const HomeScreen = () => {
 }
 
 export default HomeScreen
+
