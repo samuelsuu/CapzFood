@@ -7,6 +7,7 @@ import Onboarding from "./Onboarding";
 import Regs from "./Regs";
 import HomeDrawer from "./HomeDrawer";
 import { Text } from "react-native";
+import RestaurantDetail from "../screens/RestaurantDetail";
 
 const Stack = createNativeStackNavigator();
 
@@ -44,6 +45,11 @@ const appNavigation = () => {
           <Stack.Screen
             name="HomeDrawer"
             component={HomeDrawer}
+            options={{ headerShown: false }}
+          />
+           <Stack.Screen
+            name="RestaurantDetail"
+            component={RestaurantDetail}
             options={{ headerShown: false }}
           />
         </Stack.Navigator>
